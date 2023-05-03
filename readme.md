@@ -17,17 +17,17 @@ coder key -e < my_original_file > encrypted_file
 coder key -d < encrypted_file > my_original_file
 ```
 
-## Building the Program
+## Building and reun the Program
 
 The program requires the following libraries to be installed:
 
 - pthread
 - priorityQ
 
-To build the program, use the following command:
+To build and run the program, use the following command:
 ```
-run make it will build your program.
-right after that tester exe file will show on your lib and this is the file you shold run.
+to build the program - using the make file you only should write make in your terminal and the progarm will build.
+to run the program - file named tester will be created on your pwd and this is the exe you should run.
 ```
 
 ## How it Works
